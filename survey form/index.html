@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="UTF-8" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+      <div class="cen">
+      <h1 id="title">Freecodecamp Survey Form</h1>
+      <p id="description">Thankyou for taking your time to improve the platform</p>
+      <form method="post" action="https://register-demo.freecodecamp.org" id="survey-form">
+      <fieldset>
+  <label for="name" id="name-label">Name<input id="name" type="text" placeholder="Enter Your Name" value="name"required></label>
+  <br>
+<label for="email" id="email-label">Email<input id="email" type="email" placeholder="Enter Your Email" required></label>
+<br>
+<label for="age" id="number-label">Age(optional)<input id="number" type="number" min="16" max="45" placeholder="Enter Your Age"></label>
+<br>
+ <label for="dropdown">What gender do you identify as?<select id="dropdown">
+    <option value="">(select one)</option>
+    <option value="1">Male</option>
+    <option value="2">Female</option>
+    <option value="3">Prefer not to say</option>
+    <option value="4">Other</option>
+    </select>
+    </label>
+    <p>What is your employment status?</p>
+    <label for="unemployed"><input id="unemployed" type="radio" name="employment-status" class="inline" value="unemployed" >Unemployed
+      </label>
+      <br>
+      <label for="employed"><input id="employed" type="radio" name="employment-status" class="inline" value="employed">Employed
+      </label>
+      <br>
+      <label for="self-employed"><input id="self-employed" type="radio" name="employment-status" class="inline" value="self employed">Self employed
+      </label>
+      <br>
+      <label for="other"><input id="other" type="radio" name="employment-status" class="inline" value="other">Other
+      </label>
+      <br>
+      <p>What do you want to learn?(Tick multiple according to your interests)</p>
+      <label for="learn-frontend"><input class="inline" type="checkbox" name="learn" value="front-end" id="learn-frontend">Front-end development
+        </label>
+        <br>
+        <label for="learn-backend"><input class="inline" type="checkbox" name="learn" value="back-end" id="learn-backend">Back-end development
+        </label>
+        <br>
+        <label for="learn-data-ana"><input class="inline" type="checkbox" name="learn" value="data-ana" id="learn-data-ana">Data Analysis
+        </label>
+        <br>
+         <label for="learn-cyber-sec"><input class="inline" type="checkbox" name="learn" value="cyber-sec" id="learn-cyber-sec">Cyber Security
+        </label>
+        <br>
+         <label for="learn-cloud"><input class="inline" type="checkbox" name="learn" value="cloud" id="learn-cloud">Cloud Computing
+        </label>
+        <br>
+         <label for="learn-graphics"><input class="inline" type="checkbox" name="learn" value="graphics-design" id="learn-graphics">Graphics Design
+        </label>
+        <br>
+       
+      <label for="comments"
+          >Any comments or suggestions?
+          <br>
+          <textarea
+            id="comments"
+            name="comments"
+            rows="3"
+            cols="30"
+            placeholder="Enter your comment here"
+          ></textarea>
+        </label>
+         <br>
+          <button type="submit" id="submit">Submit</button>
+    
+        </fieldset>
+      </form>
+</div>
+      </body>
+  </html>
+
+

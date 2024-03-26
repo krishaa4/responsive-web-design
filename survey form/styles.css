@@ -1,0 +1,80 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(170, 170, 200);
+  color: #1b1b32;
+  font-family: Tahoma;
+  font-size: 20px;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #ccc; /* Light gray placeholder text */
+}
+
+h1,
+#description {
+  margin: 20px;
+  text-align: center;
+}
+form {
+  width: 60vw;
+  max-width: 600px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  background-color: rgba(170, 170, 190, 0.7);
+}
+
+fieldset {
+  margin: 0 auto;
+  padding: 10px;
+  border-bottom: 3px solid #3b3b4f;
+  width: 600px;
+}
+
+label {
+  display: block;
+  margin: 5px 0 0 0;
+  color: black;
+}
+input {
+  margin: 15px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+textarea,
+select {
+  margin: auto;
+  width: 100%;
+  min-height: 2em;
+}
+
+input,
+textarea {
+  background-color: gray;
+  border: 1px solid #0a0a23;
+  color: black;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+  display: inline;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  height: 2em;
+  font-size: 1.1rem;
+  border-color: white;
+  min-width: 300px;
+}
+.cen {
+  margin: 0 auto; /* Centers horizontally */
+  position: relative; /* Sets reference point (optional) */
+}
