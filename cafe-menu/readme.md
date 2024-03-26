@@ -1,6 +1,6 @@
-### Project Name: 
-#  Light to Dark Mode toggle
-### This a project created using HTML, CSS, JS only
+ ### Project Name: 
+#  Cafe Menu
+### This a project created using HTML and CSS
 <hr>
 
 Personal Notes (Git commands, etc.) 
