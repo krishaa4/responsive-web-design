@@ -1,4 +1,4 @@
 ### Project Name: 
 #  Penguin
-### This a project created using HTML and css.
+### This is a project created using HTML and css.
 <hr>
